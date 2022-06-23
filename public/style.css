@@ -12,7 +12,7 @@ body {
 
 .app {
   width: 550px;
-  height: 550px;
+  height: 1640px;
   background-color: #fff;
   margin: 25px;
 }
@@ -53,7 +53,6 @@ nav {
   font-size: 12px;
   line-height: 15px;
   text-align: right;
-
   color: #ffffff;
 }
 
@@ -61,10 +60,11 @@ nav {
   padding: 36px 36px 55px;
 }
 
-form {
+.meme--form {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
+  margin-bottom: 36px;
 }
 
 input {
@@ -85,4 +85,8 @@ input {
   background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
   border: none;
   border-radius: 5px;
+}
+
+.meme--image {
+  width: 100%;
 }
